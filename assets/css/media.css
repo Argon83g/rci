@@ -46,6 +46,19 @@
     .circle img {
         height: 185px;
     }
+
+    .text-main {
+        padding: 10px;
+        z-index: 99;
+    }
+
+    .travel h3 {
+        z-index: 99;
+        font-size: 40px;
+    }
+    .circle-purple{
+        display: none;
+    }
 }
 
 
@@ -84,6 +97,11 @@
 
     .circle img {
         height: 235px!important;
+    }
+
+    .text-main {
+        padding: 20px 100px;
+        z-index: 99;
     }
 
 }

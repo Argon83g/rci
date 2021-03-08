@@ -89,13 +89,75 @@ align-items: center;
     right: 0;
 }
 
+.travel {
+    background: #d4ebe6;
+    position: relative;
+    padding-bottom: 55px;
+    position: relative;
+}
 
+.travel h3{
+    z-index: 99;
+    font-size: 80px;
+}
+.travel p{
+    z-index: 99;
+}
+.img-travel{
+    display: flex;
+    justify-content: center;
+}
+
+.img-travel img{
+    width: 95%;
+    z-index: 99;
+    position: relative;
+}
 
 .circle{
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+.circle2{
+    background: #f9d43a;
+    width: 50%;
+    height: 100%;
+    border-top-right-radius: 100%;
+    position: absolute;
+}
+
+.logo-travel img{
+    width: 65%;
+}
+
+.text-main {
+    padding: 20px 240px;
+    z-index: 99;
+}
+
+.travel-text {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle-purple {
+    position: absolute;
+    bottom: 6%;
+    /* left: 86%; */
+    right: 27px;
+    z-index: 999;
+}
+
+
+
+.circle-purple img{
+    width: 127%;
+    /* position: absolute; */
+    height: 380px;
 }
 
 .logo-two {
