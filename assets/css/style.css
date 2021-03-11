@@ -23,7 +23,15 @@ p{
     font-family: 'Open Sans';
     font-size: 22px;
     font-weight:400;
+    color: #000;
 }
+ a:hover{
+     text-decoration: none;
+ }
+
+html {
+    scroll-behavior: smooth;
+} 
 body {
 overflow: hidden;
 overflow-y: auto;
