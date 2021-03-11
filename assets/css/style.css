@@ -134,13 +134,38 @@ align-items: center;
     background: #fef2c8;
 }
 
+iframe{
+    width: 100%;
+}
 
+.modal-header{
+    background-color: #a7e1d8;
+}
 
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.take-img button img{
+    width: 90%;
+    height: 140px;
+    object-fit: cover;
+}
 
 .img-travel img{
     width: 95%;
     z-index: 99;
     position: relative;
+}
+
+.modal-header .close {
+    margin: 0rem -1rem -1rem auto;
+}
+
+.modal-title img{
+    width: 40%;
 }
 
 .circle{
@@ -178,6 +203,7 @@ align-items: center;
     text-align: center;
     margin-top: 2%;
     color: gray;
+    margin-top: 8%;
 }
 .sky-img h3{
     position: absolute;
