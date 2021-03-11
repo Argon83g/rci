@@ -81,6 +81,15 @@ align-items: center;
     position: relative;
     width: 50%;
 }
+
+.wel-flex div a:hover p{
+    color:#e34b57;
+    transition: .5s;
+}
+
+.wel-flex div a p{
+    transition: .5s;
+}
 .main-img img {
     height: 94vh;
     width: 100%;
